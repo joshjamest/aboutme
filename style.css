@@ -1,9 +1,11 @@
 body {
-  color: purple;
-  background-color: lightblue;
+  color: white;
+  background-color: linear-gradient(purple, pink);
 }
 
 h1 {
+  font-size: 200%;
+  font-family: Garamond, serif;
   color: white;
   text-align: center;
 }
