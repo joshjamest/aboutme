@@ -10,11 +10,44 @@ body, html {
 }
 
 .left {
-  flex: 1;       
+  flex: 1;
   background-color: purple;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
 }
 
 .right {
-  flex: 1;      
-  background-color: black;
+  flex: 1;
+  background-color: pink;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.accordion-item {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.accordion-header {
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  background: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  background: #fff;
+  padding: 0 15px;
+}
+
+.accordion-content p {
+  margin: 15px 0;
 }
