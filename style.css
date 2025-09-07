@@ -40,9 +40,12 @@ body {
     position: relative;
 }
 
+
 .rusty-image {
-    height: auto;
-    object-fit: contain;
+  width: 50%;
+  height: auto;
+  max-height: 50%; 
+  object-fit: contain;
 }
 
 .zz-container {
