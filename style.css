@@ -7,7 +7,7 @@ body, html {
 .header {
   width: 100%;
   height: 100px;
-  background-color: black;
+  background: linear-gradient(black, purple);
   display: flex;
   align-items: center;
   justify-content: center;
