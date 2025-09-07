@@ -34,14 +34,13 @@ body {
 
 .left,
 .right {
-    flex: 1 0 50%;
+    flex: 1;
     padding: 20px;
     box-sizing: border-box;
     position: relative;
 }
 
 .rusty-image {
-    max-width: 100%; 
     height: auto;
     object-fit: contain;
 }
