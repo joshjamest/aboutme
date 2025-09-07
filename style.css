@@ -32,12 +32,11 @@ body {
     background-position: center;
 }
 
-.left,
-.right {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
+.left, .right {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
 }
 
 
