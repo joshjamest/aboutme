@@ -47,9 +47,9 @@ body {
 
 
 .rusty-image {
-  width: 50%;
+  width: 80%;
   height: auto;
-  max-height: 50%; 
+  max-height: 80%; 
   object-fit: contain;
 }
 
