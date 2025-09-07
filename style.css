@@ -17,7 +17,10 @@ body, html {
 
 .container {
   display: flex;     
-  height: 100vh;    
+  flex: 1 0 auto;  
+  min-height: calc(100vh - 100px); 
+  position: relative;
+  z-index: 0;
 }
 
 .left {
@@ -76,5 +79,5 @@ body, html {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 1;
+  z-index: 4;
 }
