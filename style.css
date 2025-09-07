@@ -38,12 +38,6 @@ html, body {
   position: relative;
 }
 
-.right {
-  background-image: url('night-sky.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 .accordion {
   position: relative;
   z-index: 4;
