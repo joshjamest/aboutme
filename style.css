@@ -38,13 +38,6 @@ html, body {
   position: relative;
 }
 
-.rusty-image {
-  width: 50%;  
-  height: auto; 
-  max-height: 50%; 
-  object-fit: contain;
-}
-
 .accordion {
   position: relative;
   z-index: 4;
