@@ -41,10 +41,8 @@ body {
 }
 
 .rusty-image {
-    width: 50%;
     height: auto;
-    display: block;
-    margin: 0 auto;
+    object-fit: contain;
 }
 
 .zz-container {
