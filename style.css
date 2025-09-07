@@ -33,7 +33,10 @@ html, body {
 }
 
 .left {
-  background: linear-gradient(180deg, black, rgb(1, 42, 100));
+  background-image: (linear-gradient(180deg, (0, 0, 0, 0.5), rgb(1, 42, 100, 0.5)), 
+  url('night-sky.jpg'));
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 
