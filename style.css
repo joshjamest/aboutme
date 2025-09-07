@@ -1,4 +1,5 @@
 body, html {
+  color: white;
   margin: 0;
   padding: 0;
   height: 100%;
@@ -11,7 +12,7 @@ body, html {
 
 .left {
   flex: 1;
-  background-color: purple;
+  background-color: black;
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
@@ -29,14 +30,13 @@ body, html {
 .accordion-item {
   margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
 }
 
 .accordion-header {
   width: 100%;
   padding: 15px;
   text-align: left;
-  background: #f0f0f0;
+  background: gray;
   border: none;
   cursor: pointer;
   font-size: 16px;
