@@ -23,6 +23,12 @@ html, body {
   min-height: calc(100vh - 100px);
   position: relative;
   z-index: 0;
+  background-color: rgb(65, 134, 239);
+  background-image: 
+    linear-gradient(180deg, rgba(0,0,0,0.5), rgba(1,42,100,0.5)),
+    url('night-sky.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .left, .right {
@@ -30,15 +36,6 @@ html, body {
   padding: 20px;
   box-sizing: border-box;
   position: relative;
-}
-
-.left {
-  background-color: rgb(65, 134, 239);
-  background-image: 
-    linear-gradient(180deg, rgba(0,0,0,0.5), rgba(1,42,100,0.5)),
-    url('night-sky.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .right {
