@@ -19,9 +19,11 @@ body, html {
 
 .right {
   flex: 1;
-  background-color: pink;
   padding: 20px;
   box-sizing: border-box;
+  background-image: url(night-sky.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .accordion-item {
