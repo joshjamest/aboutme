@@ -38,6 +38,11 @@ body, html {
   background-position: center;
 }
 
+.accordion {
+  position: relative;
+  z-index: 3;
+}
+
 .accordion-item {
   margin-bottom: 10px;
   border: 1px solid #ccc;
@@ -63,4 +68,13 @@ body, html {
 
 .accordion-content p {
   margin: 15px 0;
+}
+
+.bottom-image {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
