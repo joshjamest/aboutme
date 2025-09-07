@@ -39,6 +39,13 @@ body {
   position: relative;
 }
 
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;    
+}
+
 
 .rusty-image {
   width: 50%;
