@@ -22,10 +22,11 @@ body, html {
 
 .left {
   flex: 1;
-  background-color: black;
   padding: 20px;
   box-sizing: border-box;
   overflow-y: auto;
+  background: linear-gradient(black, purple);
+  color: white;
 }
 
 .right {
