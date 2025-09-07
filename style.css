@@ -1,71 +1,75 @@
-body, html {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 .header {
   width: 100%;
   height: 100px;
-  background: black;
+  background: linear-gradient(purple, black);
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 24px;
+  position: relative;
+  z-index: 3;
 }
 
 .container {
   display: flex;     
-  flex: 1 0 auto;  
-  min-height: calc(100vh - 100px); 
+  min-height: calc(100vh - 100px);
   position: relative;
   z-index: 0;
 }
 
-.left {
+.left, .right {
   flex: 1;
   padding: 20px;
   box-sizing: border-box;
-  overflow-y: auto;
+  position: relative;
+}
+
+.left {
   background: linear-gradient(180deg, black, rgb(61, 0, 61));
   color: white;
 }
 
 .right {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-  background-image: url(night-sky.jpg);
+  background-image: url('night-sky.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .accordion {
   position: relative;
-  z-index: 3;
+  z-index: 4;
 }
 
 .accordion-item {
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid rgba(255,255,255,0.3);
 }
 
 .accordion-header {
   width: 100%;
   padding: 15px;
   text-align: left;
-  background: gray;
+  background: rgba(0,0,0,0.7);
   border: none;
   cursor: pointer;
   font-size: 16px;
+  color: white;
 }
 
 .accordion-content {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
-  background: #fff;
+  background: rgba(0,0,0,0.6);
+  color: white;
   padding: 0 15px;
 }
 
@@ -79,5 +83,5 @@ body, html {
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 1;
+  z-index: 2;
 }
