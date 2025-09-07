@@ -24,7 +24,7 @@ body {
     min-height: calc(100vh - 100px);
     position: relative;
     z-index: 0;
-    background-color: rgb(65, 134, 239);
+    background-color: rgb(65, 134, 238);
     background-image:
         linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(1, 42, 100, 0.5)),
         url('night-sky.jpg');
