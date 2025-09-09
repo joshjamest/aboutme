@@ -51,7 +51,7 @@ body {
     width: 100%;
     top: 5%;
     max-height: 90%;
-    object-fit: contain;
+    object-fit: fill;
 }
 
 .zz-container {
