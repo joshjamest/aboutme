@@ -62,7 +62,7 @@ body {
 
 .zz {
     display: inline-block;
-    font-size: 24px;
+    font-size: 100px;
     font-weight: bold;
     color: white;
     animation: floatZ 2s infinite;
