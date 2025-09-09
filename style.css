@@ -56,7 +56,7 @@ body {
 
 .zz-container {
     position: absolute;
-    top: 5%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     pointer-events: none;
