@@ -32,24 +32,26 @@ body {
     background-position: center;
 }
 
-.left, .right {
-  flex: 1;
-  padding: 20px;
-  box-sizing: border-box;
-  position: relative;
+.left,
+.right {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .right {
-  display: flex;
-  align-items: center;
-  overflow: hidden;    
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }
 
 
 .rusty-image {
-  width: 100%;
-  max-height: 80%; 
-  object-fit: contain;
+    width: 100%;
+    top: 5%;
+    max-height: 80%;
+    object-fit: contain;
 }
 
 .zz-container {
