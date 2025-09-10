@@ -144,5 +144,4 @@ body {
     z-index: 2;
     pointer-events: none;
     filter: brightness(0) saturate(100%);
-    color: rgba(0, 0, 0, 0.5);
 }
