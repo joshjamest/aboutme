@@ -1,15 +1,13 @@
 document.querySelectorAll(".accordion-header").forEach(button => {
   button.addEventListener("click", () => {
     const content = button.nextElementSibling;
-    document.querySelectorAll(".accordion-content").forEach(c => {
-      if (c !== content) {
-        c.style.maxHeight = null;
-      }
-    });
-    if (content.style.maxHeight) {
+
+    if (content.classList.contains("open")) {
       content.style.maxHeight = null;
+      content.classList.remove("open");
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
+      content.classList.add("open");
     }
   });
 });
