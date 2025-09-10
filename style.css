@@ -122,12 +122,12 @@ body {
 }
 
 .accordion-content {
-    max-height: 0;
-    overflow: hidden;
+    max-height: none;
+    overflow: visible;
     transition: max-height 0.3s ease;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    padding: 0 15px;
+    padding: 15px;
 }
 
 .accordion-content p {
