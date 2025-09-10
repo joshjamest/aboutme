@@ -1,14 +1,10 @@
-const headers = document.querySelectorAll(".accordion-header");
-
-headers.forEach(header => {
-  header.addEventListener("click", () => {
-    const content = header.nextElementSibling;
-
+document.querySelectorAll(".accordion-header").forEach(button => {
+  button.addEventListener("click", () => {
+    const content = button.nextElementSibling;
     if (content.style.maxHeight) {
-      content.style.maxHeight = null;
+      content.style.maxHeight = null; 
     } else {
-      document.querySelectorAll(".accordion-content").forEach(c => c.style.maxHeight = null);
-      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.maxHeight = content.scrollHeight + "px"; 
     }
   });
 });
